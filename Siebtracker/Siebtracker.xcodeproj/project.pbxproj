@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C444BDE127B0070000AD1BA7 /* SiebtrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BDE027B0070000AD1BA7 /* SiebtrackerApp.swift */; };
+		C444BDE327B0070000AD1BA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BDE227B0070000AD1BA7 /* ContentView.swift */; };
+		C444BDE527B0070000AD1BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C444BDE427B0070000AD1BA7 /* Assets.xcassets */; };
+		C444BDE827B0070000AD1BA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C444BDE727B0070000AD1BA7 /* Preview Assets.xcassets */; };
+		C444BDF227B0070100AD1BA7 /* SiebtrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BDF127B0070100AD1BA7 /* SiebtrackerTests.swift */; };
+		C444BDFC27B0070100AD1BA7 /* SiebtrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BDFB27B0070100AD1BA7 /* SiebtrackerUITests.swift */; };
+		C444BDFE27B0070100AD1BA7 /* SiebtrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BDFD27B0070100AD1BA7 /* SiebtrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C444BDEE27B0070100AD1BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C444BDD527B0070000AD1BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C444BDDC27B0070000AD1BA7;
+			remoteInfo = Siebtracker;
+		};
+		C444BDF827B0070100AD1BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C444BDD527B0070000AD1BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C444BDDC27B0070000AD1BA7;
+			remoteInfo = Siebtracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C444BDDD27B0070000AD1BA7 /* Siebtracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Siebtracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C444BDE027B0070000AD1BA7 /* SiebtrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiebtrackerApp.swift; sourceTree = "<group>"; };
+		C444BDE227B0070000AD1BA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C444BDE427B0070000AD1BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C444BDE727B0070000AD1BA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C444BDED27B0070100AD1BA7 /* SiebtrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiebtrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C444BDF127B0070100AD1BA7 /* SiebtrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiebtrackerTests.swift; sourceTree = "<group>"; };
+		C444BDF727B0070100AD1BA7 /* SiebtrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiebtrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C444BDFB27B0070100AD1BA7 /* SiebtrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiebtrackerUITests.swift; sourceTree = "<group>"; };
+		C444BDFD27B0070100AD1BA7 /* SiebtrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiebtrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C444BDDA27B0070000AD1BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C444BDEA27B0070100AD1BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C444BDF427B0070100AD1BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C444BDD427B0070000AD1BA7 = {
+			isa = PBXGroup;
+			children = (
+				C444BDDF27B0070000AD1BA7 /* Siebtracker */,
+				C444BDF027B0070100AD1BA7 /* SiebtrackerTests */,
+				C444BDFA27B0070100AD1BA7 /* SiebtrackerUITests */,
+				C444BDDE27B0070000AD1BA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C444BDDE27B0070000AD1BA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C444BDDD27B0070000AD1BA7 /* Siebtracker.app */,
+				C444BDED27B0070100AD1BA7 /* SiebtrackerTests.xctest */,
+				C444BDF727B0070100AD1BA7 /* SiebtrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C444BDDF27B0070000AD1BA7 /* Siebtracker */ = {
+			isa = PBXGroup;
+			children = (
+				C444BDE027B0070000AD1BA7 /* SiebtrackerApp.swift */,
+				C444BDE227B0070000AD1BA7 /* ContentView.swift */,
+				C444BDE427B0070000AD1BA7 /* Assets.xcassets */,
+				C444BDE627B0070000AD1BA7 /* Preview Content */,
+			);
+			path = Siebtracker;
+			sourceTree = "<group>";
+		};
+		C444BDE627B0070000AD1BA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C444BDE727B0070000AD1BA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C444BDF027B0070100AD1BA7 /* SiebtrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C444BDF127B0070100AD1BA7 /* SiebtrackerTests.swift */,
+			);
+			path = SiebtrackerTests;
+			sourceTree = "<group>";
+		};
+		C444BDFA27B0070100AD1BA7 /* SiebtrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C444BDFB27B0070100AD1BA7 /* SiebtrackerUITests.swift */,
+				C444BDFD27B0070100AD1BA7 /* SiebtrackerUITestsLaunchTests.swift */,
+			);
+			path = SiebtrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C444BDDC27B0070000AD1BA7 /* Siebtracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C444BE0127B0070100AD1BA7 /* Build configuration list for PBXNativeTarget "Siebtracker" */;
+			buildPhases = (
+				C444BDD927B0070000AD1BA7 /* Sources */,
+				C444BDDA27B0070000AD1BA7 /* Frameworks */,
+				C444BDDB27B0070000AD1BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Siebtracker;
+			productName = Siebtracker;
+			productReference = C444BDDD27B0070000AD1BA7 /* Siebtracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C444BDEC27B0070100AD1BA7 /* SiebtrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C444BE0427B0070100AD1BA7 /* Build configuration list for PBXNativeTarget "SiebtrackerTests" */;
+			buildPhases = (
+				C444BDE927B0070100AD1BA7 /* Sources */,
+				C444BDEA27B0070100AD1BA7 /* Frameworks */,
+				C444BDEB27B0070100AD1BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C444BDEF27B0070100AD1BA7 /* PBXTargetDependency */,
+			);
+			name = SiebtrackerTests;
+			productName = SiebtrackerTests;
+			productReference = C444BDED27B0070100AD1BA7 /* SiebtrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C444BDF627B0070100AD1BA7 /* SiebtrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C444BE0727B0070100AD1BA7 /* Build configuration list for PBXNativeTarget "SiebtrackerUITests" */;
+			buildPhases = (
+				C444BDF327B0070100AD1BA7 /* Sources */,
+				C444BDF427B0070100AD1BA7 /* Frameworks */,
+				C444BDF527B0070100AD1BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C444BDF927B0070100AD1BA7 /* PBXTargetDependency */,
+			);
+			name = SiebtrackerUITests;
+			productName = SiebtrackerUITests;
+			productReference = C444BDF727B0070100AD1BA7 /* SiebtrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C444BDD527B0070000AD1BA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C444BDDC27B0070000AD1BA7 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C444BDEC27B0070100AD1BA7 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C444BDDC27B0070000AD1BA7;
+					};
+					C444BDF627B0070100AD1BA7 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C444BDDC27B0070000AD1BA7;
+					};
+				};
+			};
+			buildConfigurationList = C444BDD827B0070000AD1BA7 /* Build configuration list for PBXProject "Siebtracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C444BDD427B0070000AD1BA7;
+			productRefGroup = C444BDDE27B0070000AD1BA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C444BDDC27B0070000AD1BA7 /* Siebtracker */,
+				C444BDEC27B0070100AD1BA7 /* SiebtrackerTests */,
+				C444BDF627B0070100AD1BA7 /* SiebtrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C444BDDB27B0070000AD1BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C444BDE827B0070000AD1BA7 /* Preview Assets.xcassets in Resources */,
+				C444BDE527B0070000AD1BA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C444BDEB27B0070100AD1BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C444BDF527B0070100AD1BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C444BDD927B0070000AD1BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C444BDE327B0070000AD1BA7 /* ContentView.swift in Sources */,
+				C444BDE127B0070000AD1BA7 /* SiebtrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C444BDE927B0070100AD1BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C444BDF227B0070100AD1BA7 /* SiebtrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C444BDF327B0070100AD1BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C444BDFE27B0070100AD1BA7 /* SiebtrackerUITestsLaunchTests.swift in Sources */,
+				C444BDFC27B0070100AD1BA7 /* SiebtrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C444BDEF27B0070100AD1BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C444BDDC27B0070000AD1BA7 /* Siebtracker */;
+			targetProxy = C444BDEE27B0070100AD1BA7 /* PBXContainerItemProxy */;
+		};
+		C444BDF927B0070100AD1BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C444BDDC27B0070000AD1BA7 /* Siebtracker */;
+			targetProxy = C444BDF827B0070100AD1BA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C444BDFF27B0070100AD1BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C444BE0027B0070100AD1BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C444BE0227B0070100AD1BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Siebtracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 7R5A3G6YKJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timhi.Siebtracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C444BE0327B0070100AD1BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Siebtracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 7R5A3G6YKJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timhi.Siebtracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C444BE0527B0070100AD1BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7R5A3G6YKJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timhi.SiebtrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Siebtracker.app/Siebtracker";
+			};
+			name = Debug;
+		};
+		C444BE0627B0070100AD1BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7R5A3G6YKJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timhi.SiebtrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Siebtracker.app/Siebtracker";
+			};
+			name = Release;
+		};
+		C444BE0827B0070100AD1BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7R5A3G6YKJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timhi.SiebtrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Siebtracker;
+			};
+			name = Debug;
+		};
+		C444BE0927B0070100AD1BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7R5A3G6YKJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timhi.SiebtrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Siebtracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C444BDD827B0070000AD1BA7 /* Build configuration list for PBXProject "Siebtracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C444BDFF27B0070100AD1BA7 /* Debug */,
+				C444BE0027B0070100AD1BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C444BE0127B0070100AD1BA7 /* Build configuration list for PBXNativeTarget "Siebtracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C444BE0227B0070100AD1BA7 /* Debug */,
+				C444BE0327B0070100AD1BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C444BE0427B0070100AD1BA7 /* Build configuration list for PBXNativeTarget "SiebtrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C444BE0527B0070100AD1BA7 /* Debug */,
+				C444BE0627B0070100AD1BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C444BE0727B0070100AD1BA7 /* Build configuration list for PBXNativeTarget "SiebtrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C444BE0827B0070100AD1BA7 /* Debug */,
+				C444BE0927B0070100AD1BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C444BDD527B0070000AD1BA7 /* Project object */;
+}
