@@ -12,6 +12,7 @@ struct CoffeeRatioView: View {
     @State var ContinueWorkflow = false
     var body: some View {
         VStack{
+            Image("grindedCoffee").resizable().aspectRatio(contentMode: .fit)
             NavigationLink(destination: CoffeeCupWeight(viewModel: viewModel), isActive: $ContinueWorkflow) { EmptyView() }.hidden()
         Text("Choose your ratio")
             HStack{
