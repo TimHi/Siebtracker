@@ -14,6 +14,31 @@
 		C444BDF227B0070100AD1BA7 /* SiebtrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BDF127B0070100AD1BA7 /* SiebtrackerTests.swift */; };
 		C444BDFC27B0070100AD1BA7 /* SiebtrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BDFB27B0070100AD1BA7 /* SiebtrackerUITests.swift */; };
 		C444BDFE27B0070100AD1BA7 /* SiebtrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BDFD27B0070100AD1BA7 /* SiebtrackerUITestsLaunchTests.swift */; };
+		C444BE1027B0092800AD1BA7 /* Resolver-Static in Frameworks */ = {isa = PBXBuildFile; productRef = C444BE0F27B0092800AD1BA7 /* Resolver-Static */; };
+		C444BE1927B00B1500AD1BA7 /* UIDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE1827B00B1500AD1BA7 /* UIDataService.swift */; };
+		C444BE1A27B00B1500AD1BA7 /* UIDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE1827B00B1500AD1BA7 /* UIDataService.swift */; };
+		C444BE1C27B00B7400AD1BA7 /* App+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE1B27B00B7400AD1BA7 /* App+Injection.swift */; };
+		C444BE1D27B00B7400AD1BA7 /* App+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE1B27B00B7400AD1BA7 /* App+Injection.swift */; };
+		C444BE2027B00C3400AD1BA7 /* CoffeeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE1F27B00C3400AD1BA7 /* CoffeeDataModel.swift */; };
+		C444BE2127B00C3400AD1BA7 /* CoffeeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE1F27B00C3400AD1BA7 /* CoffeeDataModel.swift */; };
+		C444BE2327B00C3F00AD1BA7 /* CoffeeRatingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE2227B00C3F00AD1BA7 /* CoffeeRatingDataModel.swift */; };
+		C444BE2427B00C3F00AD1BA7 /* CoffeeRatingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE2227B00C3F00AD1BA7 /* CoffeeRatingDataModel.swift */; };
+		C444BE2627B00C4B00AD1BA7 /* CoffeeBeansDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE2527B00C4B00AD1BA7 /* CoffeeBeansDataModel.swift */; };
+		C444BE2727B00C4B00AD1BA7 /* CoffeeBeansDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE2527B00C4B00AD1BA7 /* CoffeeBeansDataModel.swift */; };
+		C444BE2927B00C5C00AD1BA7 /* CoffeeSettingsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE2827B00C5C00AD1BA7 /* CoffeeSettingsDataModel.swift */; };
+		C444BE2A27B00C5C00AD1BA7 /* CoffeeSettingsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE2827B00C5C00AD1BA7 /* CoffeeSettingsDataModel.swift */; };
+		C444BE2C27B00FA100AD1BA7 /* UIDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE2B27B00FA100AD1BA7 /* UIDataProtocol.swift */; };
+		C444BE2D27B00FA100AD1BA7 /* UIDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE2B27B00FA100AD1BA7 /* UIDataProtocol.swift */; };
+		C444BE3027B0123700AD1BA7 /* UIDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE2F27B0123700AD1BA7 /* UIDataServiceTests.swift */; };
+		C444BE3727B0135300AD1BA7 /* CoarseGrindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE3627B0135300AD1BA7 /* CoarseGrindView.swift */; };
+		C444BE3927B01C5200AD1BA7 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE3827B01C5200AD1BA7 /* ContentViewModel.swift */; };
+		C444BE3B27B0301C00AD1BA7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C444BE3A27B0301C00AD1BA7 /* Media.xcassets */; };
+		C444BE3D27B031F300AD1BA7 /* CoffeeRatioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE3C27B031F300AD1BA7 /* CoffeeRatioView.swift */; };
+		C444BE4327B036AB00AD1BA7 /* CoffeeCupWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE4227B036AB00AD1BA7 /* CoffeeCupWeight.swift */; };
+		C444BE4727B0380E00AD1BA7 /* CoffeeExtractionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE4627B0380E00AD1BA7 /* CoffeeExtractionViewModel.swift */; };
+		C444BE4927B0396C00AD1BA7 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE4827B0396B00AD1BA7 /* RatingView.swift */; };
+		C444BE4E27B04D0100AD1BA7 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE4D27B04D0100AD1BA7 /* StarRatingView.swift */; };
+		C444BE5027B052F500AD1BA7 /* ExtractedCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE4F27B052F500AD1BA7 /* ExtractedCoffeeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +69,23 @@
 		C444BDF727B0070100AD1BA7 /* SiebtrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiebtrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C444BDFB27B0070100AD1BA7 /* SiebtrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiebtrackerUITests.swift; sourceTree = "<group>"; };
 		C444BDFD27B0070100AD1BA7 /* SiebtrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiebtrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C444BE1827B00B1500AD1BA7 /* UIDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDataService.swift; sourceTree = "<group>"; };
+		C444BE1B27B00B7400AD1BA7 /* App+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Injection.swift"; sourceTree = "<group>"; };
+		C444BE1F27B00C3400AD1BA7 /* CoffeeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDataModel.swift; sourceTree = "<group>"; };
+		C444BE2227B00C3F00AD1BA7 /* CoffeeRatingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRatingDataModel.swift; sourceTree = "<group>"; };
+		C444BE2527B00C4B00AD1BA7 /* CoffeeBeansDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeBeansDataModel.swift; sourceTree = "<group>"; };
+		C444BE2827B00C5C00AD1BA7 /* CoffeeSettingsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeSettingsDataModel.swift; sourceTree = "<group>"; };
+		C444BE2B27B00FA100AD1BA7 /* UIDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDataProtocol.swift; sourceTree = "<group>"; };
+		C444BE2F27B0123700AD1BA7 /* UIDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDataServiceTests.swift; sourceTree = "<group>"; };
+		C444BE3627B0135300AD1BA7 /* CoarseGrindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoarseGrindView.swift; sourceTree = "<group>"; };
+		C444BE3827B01C5200AD1BA7 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		C444BE3A27B0301C00AD1BA7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		C444BE3C27B031F300AD1BA7 /* CoffeeRatioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRatioView.swift; sourceTree = "<group>"; };
+		C444BE4227B036AB00AD1BA7 /* CoffeeCupWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCupWeight.swift; sourceTree = "<group>"; };
+		C444BE4627B0380E00AD1BA7 /* CoffeeExtractionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeExtractionViewModel.swift; sourceTree = "<group>"; };
+		C444BE4827B0396B00AD1BA7 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		C444BE4D27B04D0100AD1BA7 /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		C444BE4F27B052F500AD1BA7 /* ExtractedCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedCoffeeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C444BE1027B0092800AD1BA7 /* Resolver-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +137,16 @@
 		C444BDDF27B0070000AD1BA7 /* Siebtracker */ = {
 			isa = PBXGroup;
 			children = (
+				C444BE1E27B00BC900AD1BA7 /* DataModel */,
+				C444BE1327B00A6D00AD1BA7 /* Service */,
+				C444BE1227B00A6700AD1BA7 /* ViewModel */,
+				C444BE1127B00A6000AD1BA7 /* View */,
 				C444BDE027B0070000AD1BA7 /* SiebtrackerApp.swift */,
 				C444BDE227B0070000AD1BA7 /* ContentView.swift */,
 				C444BDE427B0070000AD1BA7 /* Assets.xcassets */,
 				C444BDE627B0070000AD1BA7 /* Preview Content */,
+				C444BE1B27B00B7400AD1BA7 /* App+Injection.swift */,
+				C444BE3A27B0301C00AD1BA7 /* Media.xcassets */,
 			);
 			path = Siebtracker;
 			sourceTree = "<group>";
@@ -113,6 +162,7 @@
 		C444BDF027B0070100AD1BA7 /* SiebtrackerTests */ = {
 			isa = PBXGroup;
 			children = (
+				C444BE2E27B0121500AD1BA7 /* ServiceTests */,
 				C444BDF127B0070100AD1BA7 /* SiebtrackerTests.swift */,
 			);
 			path = SiebtrackerTests;
@@ -125,6 +175,72 @@
 				C444BDFD27B0070100AD1BA7 /* SiebtrackerUITestsLaunchTests.swift */,
 			);
 			path = SiebtrackerUITests;
+			sourceTree = "<group>";
+		};
+		C444BE1127B00A6000AD1BA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C444BE4A27B04CC900AD1BA7 /* Helpers */,
+				C444BE3127B012A700AD1BA7 /* CoffeeExtractionWorkflow */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C444BE1227B00A6700AD1BA7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C444BE3827B01C5200AD1BA7 /* ContentViewModel.swift */,
+				C444BE4627B0380E00AD1BA7 /* CoffeeExtractionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C444BE1327B00A6D00AD1BA7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C444BE1827B00B1500AD1BA7 /* UIDataService.swift */,
+				C444BE2B27B00FA100AD1BA7 /* UIDataProtocol.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C444BE1E27B00BC900AD1BA7 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				C444BE1F27B00C3400AD1BA7 /* CoffeeDataModel.swift */,
+				C444BE2227B00C3F00AD1BA7 /* CoffeeRatingDataModel.swift */,
+				C444BE2527B00C4B00AD1BA7 /* CoffeeBeansDataModel.swift */,
+				C444BE2827B00C5C00AD1BA7 /* CoffeeSettingsDataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		C444BE2E27B0121500AD1BA7 /* ServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C444BE2F27B0123700AD1BA7 /* UIDataServiceTests.swift */,
+			);
+			path = ServiceTests;
+			sourceTree = "<group>";
+		};
+		C444BE3127B012A700AD1BA7 /* CoffeeExtractionWorkflow */ = {
+			isa = PBXGroup;
+			children = (
+				C444BE3627B0135300AD1BA7 /* CoarseGrindView.swift */,
+				C444BE3C27B031F300AD1BA7 /* CoffeeRatioView.swift */,
+				C444BE4227B036AB00AD1BA7 /* CoffeeCupWeight.swift */,
+				C444BE4827B0396B00AD1BA7 /* RatingView.swift */,
+			);
+			path = CoffeeExtractionWorkflow;
+			sourceTree = "<group>";
+		};
+		C444BE4A27B04CC900AD1BA7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C444BE4F27B052F500AD1BA7 /* ExtractedCoffeeView.swift */,
+				C444BE4D27B04D0100AD1BA7 /* StarRatingView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +259,9 @@
 			dependencies = (
 			);
 			name = Siebtracker;
+			packageProductDependencies = (
+				C444BE0F27B0092800AD1BA7 /* Resolver-Static */,
+			);
 			productName = Siebtracker;
 			productReference = C444BDDD27B0070000AD1BA7 /* Siebtracker.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +334,9 @@
 				Base,
 			);
 			mainGroup = C444BDD427B0070000AD1BA7;
+			packageReferences = (
+				C444BE0A27B0092800AD1BA7 /* XCRemoteSwiftPackageReference "Resolver" */,
+			);
 			productRefGroup = C444BDDE27B0070000AD1BA7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C444BDE827B0070000AD1BA7 /* Preview Assets.xcassets in Resources */,
+				C444BE3B27B0301C00AD1BA7 /* Media.xcassets in Resources */,
 				C444BDE527B0070000AD1BA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +380,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C444BE2327B00C3F00AD1BA7 /* CoffeeRatingDataModel.swift in Sources */,
+				C444BE5027B052F500AD1BA7 /* ExtractedCoffeeView.swift in Sources */,
 				C444BDE327B0070000AD1BA7 /* ContentView.swift in Sources */,
+				C444BE1C27B00B7400AD1BA7 /* App+Injection.swift in Sources */,
+				C444BE4927B0396C00AD1BA7 /* RatingView.swift in Sources */,
+				C444BE3727B0135300AD1BA7 /* CoarseGrindView.swift in Sources */,
+				C444BE4327B036AB00AD1BA7 /* CoffeeCupWeight.swift in Sources */,
 				C444BDE127B0070000AD1BA7 /* SiebtrackerApp.swift in Sources */,
+				C444BE3D27B031F300AD1BA7 /* CoffeeRatioView.swift in Sources */,
+				C444BE2927B00C5C00AD1BA7 /* CoffeeSettingsDataModel.swift in Sources */,
+				C444BE4E27B04D0100AD1BA7 /* StarRatingView.swift in Sources */,
+				C444BE2627B00C4B00AD1BA7 /* CoffeeBeansDataModel.swift in Sources */,
+				C444BE3927B01C5200AD1BA7 /* ContentViewModel.swift in Sources */,
+				C444BE2027B00C3400AD1BA7 /* CoffeeDataModel.swift in Sources */,
+				C444BE2C27B00FA100AD1BA7 /* UIDataProtocol.swift in Sources */,
+				C444BE4727B0380E00AD1BA7 /* CoffeeExtractionViewModel.swift in Sources */,
+				C444BE1927B00B1500AD1BA7 /* UIDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +405,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C444BDF227B0070100AD1BA7 /* SiebtrackerTests.swift in Sources */,
+				C444BE2D27B00FA100AD1BA7 /* UIDataProtocol.swift in Sources */,
+				C444BE2427B00C3F00AD1BA7 /* CoffeeRatingDataModel.swift in Sources */,
+				C444BE2A27B00C5C00AD1BA7 /* CoffeeSettingsDataModel.swift in Sources */,
+				C444BE1D27B00B7400AD1BA7 /* App+Injection.swift in Sources */,
+				C444BE2727B00C4B00AD1BA7 /* CoffeeBeansDataModel.swift in Sources */,
+				C444BE1A27B00B1500AD1BA7 /* UIDataService.swift in Sources */,
+				C444BE3027B0123700AD1BA7 /* UIDataServiceTests.swift in Sources */,
+				C444BE2127B00C3400AD1BA7 /* CoffeeDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +729,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C444BE0A27B0092800AD1BA7 /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C444BE0F27B0092800AD1BA7 /* Resolver-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C444BE0A27B0092800AD1BA7 /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = "Resolver-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C444BDD527B0070000AD1BA7 /* Project object */;
 }
