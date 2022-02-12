@@ -6,24 +6,30 @@
 //
 
 import Foundation
+import Resolver
 
 class UIDataService : UIDataProtocol{
     private var currentCoffee : CoffeeDataModel
+    @Injected var databaseService : DatabaseService
     
     init() {
-        currentCoffee = CoffeeDataModel(coffeeId: UUID(), date: Date())
+        self.currentCoffee = CoffeeDataModel(coffeeId: UUID(), date: Date())
     }
     
     func updateCurrentCoffee(coffee: CoffeeDataModel) {
         self.currentCoffee = coffee
+        storeCurrentCoffee() //TODO Merge
     }
     
     func getCurrentCoffee() -> CoffeeDataModel {
-        currentCoffee.settings.coarseGrindWeight = 10
-        return currentCoffee
+        return self.currentCoffee
     }
     
     func getLastCoffee() -> CoffeeDataModel {
-        return CoffeeDataModel(coffeeId: UUID(), date: Date(), rating: CoffeeRatingDataModel(bitterness: 1, sourness: 2, taste: 3), beans: CoffeeBeansDataModel(beanName: "DummyBeans", beanProducer: "Prod", productImageUrl: NSURL()), settings: CoffeeSettingsDataModel(coarseGrindFineness: 8, coarseGrindWeight: 12, espressoRatio: 1, waterRatio: 2, extractionTime: 30, extractedWeight: 50))
+        return self.databaseService.getLastExtractedCoffee()
+    }
+    
+    func storeCurrentCoffee(){
+        self.databaseService.storeExtractedCoffee(coffeeToStore: self.currentCoffee)
     }
 }

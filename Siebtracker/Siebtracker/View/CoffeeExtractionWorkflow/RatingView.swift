@@ -28,6 +28,7 @@ struct RatingView: View {
             viewModel.CurrentCoffee.rating.bitterness = bitterNess
             viewModel.CurrentCoffee.rating.sourness = sourNess
             viewModel.CurrentCoffee.rating.taste = overallTaste
+            viewModel.StoreCoffeeSettings()
             self.ContinueWorkflow = true
             }
         }

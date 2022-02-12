@@ -10,6 +10,7 @@ import Resolver
 
 extension Resolver: ResolverRegistering {
   public static func registerAllServices() {
-      register { UIDataService() }.implements(UIDataProtocol.self)
+      register { UIDataService() }.implements(UIDataProtocol.self).scope(.application)
+      register { DatabaseService() }.implements(DatabaseProtocol.self).scope(.application)
   }
 }
