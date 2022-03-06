@@ -18,9 +18,9 @@ extension CoffeeModel {
 
     @NSManaged public var date: Date?
     @NSManaged public var id: UUID?
-    @NSManaged public var beans: BeansModel?
-    @NSManaged public var rating: RatingModel?
-    @NSManaged public var settings: SettingsModel?
+    @NSManaged public var beansID: UUID
+    @NSManaged public var ratingID: UUID
+    @NSManaged public var settingsID: UUID
 
 }
 

@@ -22,6 +22,7 @@ struct ContentView: View {
                 extractionViewModel.CurrentCoffee = viewModel.currentCoffee
                 self.IsCoffeeWorkflow = true
             }
+            Text("Last extracted Coffee:")
             ExtractedCoffeeView(extractedCoffee: getLastCoffee())
         }
         }

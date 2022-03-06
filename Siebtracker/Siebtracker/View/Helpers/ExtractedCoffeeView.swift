@@ -39,7 +39,7 @@ struct ExtractedCoffeeView: View {
                 Text("Taste: ")
                 StarRatingView(rating: $extractedCoffee.rating.taste)
             }
-        }.background(Color.teal)
+        }.background(Color.gray)
     }
 }
 struct ExtractedCoffeeView_Previews: PreviewProvider {

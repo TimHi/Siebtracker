@@ -10,6 +10,7 @@ import Foundation
 protocol DatabaseProtocol {
     func storeExtractedCoffee(coffeeToStore: CoffeeDataModel)
     func getLastExtractedCoffee() -> CoffeeDataModel
+    /*
     func storeCoffeeBeans(coffeeBeans: CoffeeBeansDataModel)
-    func getCoffeeBeansByName(name: String) -> CoffeeBeansDataModel
+    func getCoffeeBeansByName(name: String) -> CoffeeBeansDataModel*/
 }

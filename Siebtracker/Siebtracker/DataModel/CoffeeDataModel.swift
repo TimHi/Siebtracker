@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import CoreData
 struct CoffeeDataModel {
     var coffeeId: UUID
     var date: Date

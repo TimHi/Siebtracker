@@ -41,7 +41,24 @@
 		C444BE5027B052F500AD1BA7 /* ExtractedCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BE4F27B052F500AD1BA7 /* ExtractedCoffeeView.swift */; };
 		C449751C27B85F9E006490CA /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C449751B27B85F9E006490CA /* DatabaseService.swift */; };
 		C449751E27B85FAD006490CA /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C449751D27B85FAD006490CA /* DatabaseProtocol.swift */; };
-		C449752127B86287006490CA /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = C449752027B86287006490CA /* SQLite */; };
+		C45CB51527CC19C10021304D /* CoffeeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C45CB51327CC19C10021304D /* CoffeeModel.xcdatamodeld */; };
+		C477912727CC3B4300C3F8C4 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477912627CC3B4300C3F8C4 /* Persistance.swift */; };
+		C477914827CC429800C3F8C4 /* CoffeeModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914027CC429800C3F8C4 /* CoffeeModel+CoreDataClass.swift */; };
+		C477914927CC429800C3F8C4 /* CoffeeModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914127CC429800C3F8C4 /* CoffeeModel+CoreDataProperties.swift */; };
+		C477914A27CC429800C3F8C4 /* BeansModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914227CC429800C3F8C4 /* BeansModel+CoreDataClass.swift */; };
+		C477914B27CC429800C3F8C4 /* BeansModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914327CC429800C3F8C4 /* BeansModel+CoreDataProperties.swift */; };
+		C477914C27CC429800C3F8C4 /* SettingsModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914427CC429800C3F8C4 /* SettingsModel+CoreDataClass.swift */; };
+		C477914D27CC429800C3F8C4 /* SettingsModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914527CC429800C3F8C4 /* SettingsModel+CoreDataProperties.swift */; };
+		C477914E27CC429800C3F8C4 /* RatingModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914627CC429800C3F8C4 /* RatingModel+CoreDataClass.swift */; };
+		C477914F27CC429800C3F8C4 /* RatingModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914727CC429800C3F8C4 /* RatingModel+CoreDataProperties.swift */; };
+		C477915027CC42A100C3F8C4 /* RatingModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914627CC429800C3F8C4 /* RatingModel+CoreDataClass.swift */; };
+		C477915127CC42A100C3F8C4 /* BeansModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914227CC429800C3F8C4 /* BeansModel+CoreDataClass.swift */; };
+		C477915227CC42A100C3F8C4 /* SettingsModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914427CC429800C3F8C4 /* SettingsModel+CoreDataClass.swift */; };
+		C477915327CC42A100C3F8C4 /* CoffeeModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914027CC429800C3F8C4 /* CoffeeModel+CoreDataClass.swift */; };
+		C477915427CC42A100C3F8C4 /* RatingModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914727CC429800C3F8C4 /* RatingModel+CoreDataProperties.swift */; };
+		C477915527CC42A100C3F8C4 /* SettingsModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914527CC429800C3F8C4 /* SettingsModel+CoreDataProperties.swift */; };
+		C477915627CC42A100C3F8C4 /* CoffeeModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914127CC429800C3F8C4 /* CoffeeModel+CoreDataProperties.swift */; };
+		C477915727CC42A100C3F8C4 /* BeansModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477914327CC429800C3F8C4 /* BeansModel+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +108,16 @@
 		C444BE4F27B052F500AD1BA7 /* ExtractedCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedCoffeeView.swift; sourceTree = "<group>"; };
 		C449751B27B85F9E006490CA /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		C449751D27B85FAD006490CA /* DatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseProtocol.swift; sourceTree = "<group>"; };
+		C45CB51427CC19C10021304D /* CoffeeModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoffeeModel.xcdatamodel; sourceTree = "<group>"; };
+		C477912627CC3B4300C3F8C4 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		C477914027CC429800C3F8C4 /* CoffeeModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoffeeModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C477914127CC429800C3F8C4 /* CoffeeModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoffeeModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C477914227CC429800C3F8C4 /* BeansModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BeansModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C477914327CC429800C3F8C4 /* BeansModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BeansModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C477914427CC429800C3F8C4 /* SettingsModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C477914527CC429800C3F8C4 /* SettingsModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C477914627CC429800C3F8C4 /* RatingModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RatingModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C477914727CC429800C3F8C4 /* RatingModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RatingModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +125,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C449752127B86287006490CA /* SQLite in Frameworks */,
 				C444BE1027B0092800AD1BA7 /* Resolver-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +234,7 @@
 				C444BE2B27B00FA100AD1BA7 /* UIDataProtocol.swift */,
 				C449751B27B85F9E006490CA /* DatabaseService.swift */,
 				C449751D27B85FAD006490CA /* DatabaseProtocol.swift */,
+				C477912627CC3B4300C3F8C4 /* Persistance.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -215,10 +242,19 @@
 		C444BE1E27B00BC900AD1BA7 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				C477914027CC429800C3F8C4 /* CoffeeModel+CoreDataClass.swift */,
+				C477914127CC429800C3F8C4 /* CoffeeModel+CoreDataProperties.swift */,
+				C477914227CC429800C3F8C4 /* BeansModel+CoreDataClass.swift */,
+				C477914327CC429800C3F8C4 /* BeansModel+CoreDataProperties.swift */,
+				C477914427CC429800C3F8C4 /* SettingsModel+CoreDataClass.swift */,
+				C477914527CC429800C3F8C4 /* SettingsModel+CoreDataProperties.swift */,
+				C477914627CC429800C3F8C4 /* RatingModel+CoreDataClass.swift */,
+				C477914727CC429800C3F8C4 /* RatingModel+CoreDataProperties.swift */,
 				C444BE1F27B00C3400AD1BA7 /* CoffeeDataModel.swift */,
 				C444BE2227B00C3F00AD1BA7 /* CoffeeRatingDataModel.swift */,
 				C444BE2527B00C4B00AD1BA7 /* CoffeeBeansDataModel.swift */,
 				C444BE2827B00C5C00AD1BA7 /* CoffeeSettingsDataModel.swift */,
+				C45CB51327CC19C10021304D /* CoffeeModel.xcdatamodeld */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -269,7 +305,6 @@
 			name = Siebtracker;
 			packageProductDependencies = (
 				C444BE0F27B0092800AD1BA7 /* Resolver-Static */,
-				C449752027B86287006490CA /* SQLite */,
 			);
 			productName = Siebtracker;
 			productReference = C444BDDD27B0070000AD1BA7 /* Siebtracker.app */;
@@ -393,22 +428,32 @@
 				C449751C27B85F9E006490CA /* DatabaseService.swift in Sources */,
 				C444BE2327B00C3F00AD1BA7 /* CoffeeRatingDataModel.swift in Sources */,
 				C444BE5027B052F500AD1BA7 /* ExtractedCoffeeView.swift in Sources */,
+				C477914827CC429800C3F8C4 /* CoffeeModel+CoreDataClass.swift in Sources */,
 				C444BDE327B0070000AD1BA7 /* ContentView.swift in Sources */,
 				C444BE1C27B00B7400AD1BA7 /* App+Injection.swift in Sources */,
+				C477914F27CC429800C3F8C4 /* RatingModel+CoreDataProperties.swift in Sources */,
+				C477912727CC3B4300C3F8C4 /* Persistance.swift in Sources */,
+				C477914A27CC429800C3F8C4 /* BeansModel+CoreDataClass.swift in Sources */,
+				C45CB51527CC19C10021304D /* CoffeeModel.xcdatamodeld in Sources */,
 				C444BE4927B0396C00AD1BA7 /* RatingView.swift in Sources */,
 				C444BE3727B0135300AD1BA7 /* CoarseGrindView.swift in Sources */,
 				C444BE4327B036AB00AD1BA7 /* CoffeeCupWeight.swift in Sources */,
 				C444BDE127B0070000AD1BA7 /* SiebtrackerApp.swift in Sources */,
 				C444BE3D27B031F300AD1BA7 /* CoffeeRatioView.swift in Sources */,
 				C444BE2927B00C5C00AD1BA7 /* CoffeeSettingsDataModel.swift in Sources */,
+				C477914D27CC429800C3F8C4 /* SettingsModel+CoreDataProperties.swift in Sources */,
+				C477914E27CC429800C3F8C4 /* RatingModel+CoreDataClass.swift in Sources */,
 				C444BE4E27B04D0100AD1BA7 /* StarRatingView.swift in Sources */,
 				C444BE2627B00C4B00AD1BA7 /* CoffeeBeansDataModel.swift in Sources */,
 				C444BE3927B01C5200AD1BA7 /* ContentViewModel.swift in Sources */,
 				C444BE2027B00C3400AD1BA7 /* CoffeeDataModel.swift in Sources */,
 				C444BE2C27B00FA100AD1BA7 /* UIDataProtocol.swift in Sources */,
+				C477914C27CC429800C3F8C4 /* SettingsModel+CoreDataClass.swift in Sources */,
 				C444BE4727B0380E00AD1BA7 /* CoffeeExtractionViewModel.swift in Sources */,
+				C477914B27CC429800C3F8C4 /* BeansModel+CoreDataProperties.swift in Sources */,
 				C449751E27B85FAD006490CA /* DatabaseProtocol.swift in Sources */,
 				C444BE1927B00B1500AD1BA7 /* UIDataService.swift in Sources */,
+				C477914927CC429800C3F8C4 /* CoffeeModel+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,12 +461,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C477915027CC42A100C3F8C4 /* RatingModel+CoreDataClass.swift in Sources */,
+				C477915327CC42A100C3F8C4 /* CoffeeModel+CoreDataClass.swift in Sources */,
+				C477915127CC42A100C3F8C4 /* BeansModel+CoreDataClass.swift in Sources */,
+				C477915627CC42A100C3F8C4 /* CoffeeModel+CoreDataProperties.swift in Sources */,
 				C444BDF227B0070100AD1BA7 /* SiebtrackerTests.swift in Sources */,
 				C444BE2D27B00FA100AD1BA7 /* UIDataProtocol.swift in Sources */,
 				C444BE2427B00C3F00AD1BA7 /* CoffeeRatingDataModel.swift in Sources */,
+				C477915527CC42A100C3F8C4 /* SettingsModel+CoreDataProperties.swift in Sources */,
+				C477915727CC42A100C3F8C4 /* BeansModel+CoreDataProperties.swift in Sources */,
 				C444BE2A27B00C5C00AD1BA7 /* CoffeeSettingsDataModel.swift in Sources */,
+				C477915227CC42A100C3F8C4 /* SettingsModel+CoreDataClass.swift in Sources */,
 				C444BE1D27B00B7400AD1BA7 /* App+Injection.swift in Sources */,
 				C444BE2727B00C4B00AD1BA7 /* CoffeeBeansDataModel.swift in Sources */,
+				C477915427CC42A100C3F8C4 /* RatingModel+CoreDataProperties.swift in Sources */,
 				C444BE1A27B00B1500AD1BA7 /* UIDataService.swift in Sources */,
 				C444BE3027B0123700AD1BA7 /* UIDataServiceTests.swift in Sources */,
 				C444BE2127B00C3400AD1BA7 /* CoffeeDataModel.swift in Sources */,
@@ -767,12 +820,20 @@
 			package = C444BE0A27B0092800AD1BA7 /* XCRemoteSwiftPackageReference "Resolver" */;
 			productName = "Resolver-Static";
 		};
-		C449752027B86287006490CA /* SQLite */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C449751F27B86287006490CA /* XCRemoteSwiftPackageReference "SQLite" */;
-			productName = SQLite;
-		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C45CB51327CC19C10021304D /* CoffeeModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C45CB51427CC19C10021304D /* CoffeeModel.xcdatamodel */,
+			);
+			currentVersion = C45CB51427CC19C10021304D /* CoffeeModel.xcdatamodel */;
+			path = CoffeeModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C444BDD527B0070000AD1BA7 /* Project object */;
 }

@@ -15,11 +15,11 @@ extension RatingModel {
     @nonobjc public class func fetchRequest() -> NSFetchRequest<RatingModel> {
         return NSFetchRequest<RatingModel>(entityName: "RatingModel")
     }
-
+    
     @NSManaged public var bitterness: Int16
     @NSManaged public var sourness: Int16
     @NSManaged public var taste: Int16
-
+    @NSManaged public var id: UUID
 }
 
 extension RatingModel : Identifiable {

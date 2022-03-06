@@ -16,6 +16,7 @@ extension BeansModel {
         return NSFetchRequest<BeansModel>(entityName: "BeansModel")
     }
 
+    @NSManaged public var id: UUID
     @NSManaged public var image: URL?
     @NSManaged public var name: String?
     @NSManaged public var producer: String?

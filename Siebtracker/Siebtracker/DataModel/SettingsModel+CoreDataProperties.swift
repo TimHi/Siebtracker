@@ -16,6 +16,7 @@ extension SettingsModel {
         return NSFetchRequest<SettingsModel>(entityName: "SettingsModel")
     }
 
+    @NSManaged public var id: UUID
     @NSManaged public var coarseGrindFineness: Int16
     @NSManaged public var coarseGrindWeight: Int16
     @NSManaged public var espressoRatio: Int16
