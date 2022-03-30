@@ -13,6 +13,7 @@ struct ContentView: View {
     private var viewModel : ContentViewModel = ContentViewModel()
     private var extractionViewModel : CoffeeExtractionViewModel = CoffeeExtractionViewModel(currentCoffee: CoffeeDataModel(coffeeId: UUID(), date: Date()))
     var body: some View {
+        HeaderView(headerText: .constant("Siebtracker"))
         NavigationView{
         VStack{
             NavigationLink(destination: CoarseGrindView(viewModel: extractionViewModel), isActive: $IsCoffeeWorkflow) { EmptyView() }.hidden()

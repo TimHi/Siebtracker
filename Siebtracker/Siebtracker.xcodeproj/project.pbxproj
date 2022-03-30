@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4355D1627F507CF0082BEF9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4355D1527F507CF0082BEF9 /* HeaderView.swift */; };
 		C444BDE127B0070000AD1BA7 /* SiebtrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BDE027B0070000AD1BA7 /* SiebtrackerApp.swift */; };
 		C444BDE327B0070000AD1BA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444BDE227B0070000AD1BA7 /* ContentView.swift */; };
 		C444BDE527B0070000AD1BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C444BDE427B0070000AD1BA7 /* Assets.xcassets */; };
@@ -79,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4355D1527F507CF0082BEF9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		C444BDDD27B0070000AD1BA7 /* Siebtracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Siebtracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C444BDE027B0070000AD1BA7 /* SiebtrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiebtrackerApp.swift; sourceTree = "<group>"; };
 		C444BDE227B0070000AD1BA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 			children = (
 				C444BE4F27B052F500AD1BA7 /* ExtractedCoffeeView.swift */,
 				C444BE4D27B04D0100AD1BA7 /* StarRatingView.swift */,
+				C4355D1527F507CF0082BEF9 /* HeaderView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 				C444BE2C27B00FA100AD1BA7 /* UIDataProtocol.swift in Sources */,
 				C477914C27CC429800C3F8C4 /* SettingsModel+CoreDataClass.swift in Sources */,
 				C444BE4727B0380E00AD1BA7 /* CoffeeExtractionViewModel.swift in Sources */,
+				C4355D1627F507CF0082BEF9 /* HeaderView.swift in Sources */,
 				C477914B27CC429800C3F8C4 /* BeansModel+CoreDataProperties.swift in Sources */,
 				C449751E27B85FAD006490CA /* DatabaseProtocol.swift in Sources */,
 				C444BE1927B00B1500AD1BA7 /* UIDataService.swift in Sources */,
