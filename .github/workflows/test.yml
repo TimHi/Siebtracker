@@ -14,6 +14,6 @@ jobs:
       - name: Force XCode 11.3
         run: sudo xcode-select -switch /Applications/Xcode_13.2.app
       - name: Testing Swift package
-        run: exec ./.github/scripts/test_package.sh
+        run: sudo exec ./.github/scripts/test_package.sh
       - name: Testing iOS app
-        run: exec ./.github/scripts/test_app.sh
+        run: sudo exec ./.github/scripts/test_app.sh
