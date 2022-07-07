@@ -1,8 +1,9 @@
 name: Build APK
 on:
-  push:
+  pull_request:
     branches:
-      - main
+      - "main"
+
 jobs:
   install-and-test:
     runs-on: ubuntu-latest
