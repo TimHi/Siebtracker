@@ -1,10 +1,10 @@
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import HomeScreen from '../../UI/screens/HomeScreen';
 import NewCoffeeScreen from '../../UI/screens/NewCoffeeScreen';
 import StatisticsScreen from '../../UI/screens/StatisticsScreen';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/Ionicons';
+import {HomeScreen} from '../../UI/screens/HomeScreen';
 
 export type BottomTabStackParams = {
   Home: undefined;

@@ -84,6 +84,56 @@ func returnAllUsers(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(Users)
 }
 
+func returnSettingById(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	key := vars["id"]
+	for _, setting := range Settings {
+		if setting.Id == key {
+			json.NewEncoder(w).Encode(setting)
+		}
+	}
+}
+
+func returnBeanById(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	key := vars["id"]
+	for _, bean := range Beans {
+		if bean.Id == key {
+			json.NewEncoder(w).Encode(bean)
+		}
+	}
+}
+
+func returnCoffeeById(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	key := vars["id"]
+	for _, bean := range Coffees {
+		if bean.Id == key {
+			json.NewEncoder(w).Encode(bean)
+		}
+	}
+}
+
+func returnUserById(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	key := vars["id"]
+	for _, user := range Users {
+		if user.Id == key {
+			json.NewEncoder(w).Encode(user)
+		}
+	}
+}
+
+func returnRatingById(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	key := vars["id"]
+	for _, rating := range Ratings {
+		if rating.Id == key {
+			json.NewEncoder(w).Encode(rating)
+		}
+	}
+}
+
 func handleRequests() {
 	myRouter := mux.NewRouter().StrictSlash(true)
 	myRouter.HandleFunc("/", homePage)
@@ -92,6 +142,11 @@ func handleRequests() {
 	myRouter.HandleFunc("/beans", returnAllBeans)
 	myRouter.HandleFunc("/ratings", returnAllRatings)
 	myRouter.HandleFunc("/users", returnAllUsers)
+	myRouter.HandleFunc("/settings/{id}", returnSettingById)
+	myRouter.HandleFunc("/coffees/{id}", returnCoffeeById)
+	myRouter.HandleFunc("/beans/{id}", returnBeanById)
+	myRouter.HandleFunc("/users/{id}", returnUserById)
+	myRouter.HandleFunc("/ratings/{id}", returnRatingById)
 	log.Fatal(http.ListenAndServe(":10000", myRouter))
 }
 
