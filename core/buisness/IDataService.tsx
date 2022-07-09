@@ -9,15 +9,15 @@ export interface IDataService {
   getAllCoffees(): Promise<Coffee[]>;
   getLatestCoffee(): Promise<Coffee>;
 
-  getSettingById(settingId: string): Setting;
-  getAllSettings(): Setting[];
+  getSettingById(settingId: string): Promise<Setting>;
+  getAllSettings(): Promise<Setting[]>;
 
-  getBeanById(beanId: string): Bean;
-  getAllBeans(): Bean[];
+  getBeanById(beanId: string): Promise<Bean>;
+  getAllBeans(): Promise<Bean[]>;
 
-  getRatingById(ratingId: string): Rating;
-  getAllRatings(): Rating[];
+  getRatingById(ratingId: string): Promise<Rating>;
+  getAllRatings(): Promise<Rating[]>;
 
-  getUserById(userId: string): User;
-  getAllUsers(): User[];
+  getUserById(userId: string): Promise<User>;
+  getAllUsers(): Promise<User[]>;
 }

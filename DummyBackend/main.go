@@ -156,7 +156,6 @@ func main() {
 		{Id: "11", SettingId: "20", BeanId: "30", RatingId: "41", UserId: "50"},
 		{Id: "12", SettingId: "21", BeanId: "31", RatingId: "42", UserId: "50"},
 		{Id: "13", SettingId: "22", BeanId: "32", RatingId: "43", UserId: "50"},
-		{Id: "14", SettingId: "23", BeanId: "30", RatingId: "44", UserId: "50"},
 	}
 	Settings = []Setting{
 		{Id: "20", Ratio: "1:2", ExtractionTime: "20", CoarseWeight: "14", ExtractedWeight: "36"},

@@ -7,12 +7,52 @@ import {User} from '../model/User';
 import {IDataService} from './IDataService';
 
 export class DataService implements IDataService {
+  apiService = new APIService();
+  getSettingById(settingId: string): Promise<Setting> {
+    return this.apiService.getSettingById(settingId).then(setting => {
+      return setting;
+    });
+  }
+  getAllSettings(): Promise<Setting[]> {
+    return this.apiService.getAllSettings().then(settings => {
+      return settings;
+    });
+  }
+  getBeanById(beanId: string): Promise<Bean> {
+    return this.apiService.getBeanById(beanId).then(bean => {
+      return bean;
+    });
+  }
+  getAllBeans(): Promise<Bean[]> {
+    return this.apiService.getAllBeans().then(beans => {
+      return beans;
+    });
+  }
+  getRatingById(ratingId: string): Promise<Rating> {
+    return this.apiService.getRatingById(ratingId).then(rating => {
+      return rating;
+    });
+  }
+  getAllRatings(): Promise<Rating[]> {
+    return this.apiService.getAllRatings().then(rating => {
+      return rating;
+    });
+  }
+  getUserById(userId: string): Promise<User> {
+    return this.apiService.getUserById(userId).then(user => {
+      return user;
+    });
+  }
+  getAllUsers(): Promise<User[]> {
+    return this.apiService.getAllUsers().then(users => {
+      return users;
+    });
+  }
   getLatestCoffee(): Promise<Coffee> {
     return this.apiService.getAllCoffees().then(coffees => {
       return coffees[coffees.length - 1];
     });
   }
-  apiService = new APIService();
   getCoffeeById(coffeeId: string): Promise<Coffee> {
     return this.apiService.getCoffeeById(coffeeId).then(coffee => {
       return coffee;
@@ -22,33 +62,5 @@ export class DataService implements IDataService {
     return this.apiService.getAllCoffees().then(coffees => {
       return coffees;
     });
-  }
-  getSettingById(settingId: string): Setting {
-    console.log(settingId);
-    throw new Error('Method not implemented.');
-  }
-  getAllSettings(): Setting[] {
-    throw new Error('Method not implemented.');
-  }
-  getBeanById(beanId: string): Bean {
-    console.log(beanId);
-    throw new Error('Method not implemented.');
-  }
-  getAllBeans(): Bean[] {
-    throw new Error('Method not implemented.');
-  }
-  getRatingById(ratingId: string): Rating {
-    console.log(ratingId);
-    throw new Error('Method not implemented.');
-  }
-  getAllRatings(): Rating[] {
-    throw new Error('Method not implemented.');
-  }
-  getUserById(userId: string): User {
-    console.log(userId);
-    throw new Error('Method not implemented.');
-  }
-  getAllUsers(): User[] {
-    throw new Error('Method not implemented.');
   }
 }
